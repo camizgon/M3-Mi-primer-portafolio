@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT AWESONE -->
+    <script
+      defer
+      src="https://kit.fontawesome.com/d5b48fda4e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- VINCULAR EL .CSS / SASS CON main.scss -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Mi primer portafolio</title>
+  </head>
+  <body class="bg-primary">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid w-75 px-0">
+        <a
+          class="navbar-brand text-secondary fst-italic fs-1 fw-bold mx-5"
+          href="#"
+          >PeterParker</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav fs-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#seccion1"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#seccion2">Mis Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#seccion3">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#seccion4">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container-box">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <img
+            class="container-box__images w-75"
+            src="./assets/img/developer.svg"
+            alt=""
+          />
+        </div>
+        <div class="col-12 col-md-4">
+          <h1 class="container-box__title text-secondary mt-5">
+            Soy Peter Parker
+          </h1>
+          <h2 class="container-box-title text-success text-start">
+            Desarrollador FrontEnd
+          </h2>
+          <p class="container-box__paragraph">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa,
+            beatae cupiditate natus officia repellat maiores amet dolores iure
+            tempora molestias aspernatur quo quasi, labore blanditiis nisi, ad
+            dolorum nemo vel tempora molestias aspernatur quo quasi, labore
+            blanditiis nisi, ad dolorum nemo vel blanditiis nisi, ad dolorum.
+          </p>
+          <div class="col-12 col-md-4">
+            <button type="button" class="btn btn-secondary p-6">
+              Contactarme
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <br />
+    <h2 id="seccion2" class="text-secondary text-center mb-5">
+      Mis Habilidades
+    </h2>
+    <!-- SECCIÓN MIS HABILIDADES -->
+    <section class="container-box-softskills">
+      <div class="row">
+        <!-- HABILIDAD HTML -->
+        <div class="col-6 col-md-1 d-flex flex-row gap-2">
+          <img
+            class="container-box-softskills__image"
+            src="https://devicon-website.vercel.app/api/html5/original.svg"
+          /><span class="container-box-softskills__text">HTML</span>
+        </div>
+        <!-- HABILIDAD CSS -->
+        <div class="col-6 col-md-1 d-flex flex-row gap-2">
+          <img
+            class="container-box-softskills__image"
+            src="https://devicon-website.vercel.app/api/css3/original.svg"
+          /><span class="container-box-softskills__text">Css</span>
+        </div>
+        <!-- HABILIDAD SASS -->
+        <div class="col-6 col-md-1 d-flex flex-row gap-2">
+          <img
+            class="container-box-softskills__image"
+            src="https://devicon-website.vercel.app/api/sass/original.svg"
+          /><span class="container-box-softskills__text">Sass</span>
+        </div>
+        <!-- HABILIDAD BOOTSTRAP -->
+        <div class="col-6 col-md-1 d-flex flex-row gap-2">
+          <img
+            class="container-box-softskills__image"
+            src="https://devicon-website.vercel.app/api/bootstrap/original.svg"
+          /><span class="container-box-softskills__text">Bootstrap</span>
+        </div>
+        <!-- HABILIDAD GIT -->
+        <div class="col-6 col-md-1 d-flex flex-row gap-2">
+          <img
+            class="container-box-softskills__image"
+            src="https://devicon-website.vercel.app/api/git/original.svg"
+          /><span class="container-box-softskills__text">Git</span>
+        </div>
+        <!-- HABILIDAD GITHUB -->
+        <div class="col-6 col-md-1 d-flex flex-row gap-2">
+          <img
+            class="container-box-softskills__image"
+            src="https://devicon-website.vercel.app/api/github/original.svg"
+          /><span class="container-box-softskills__text">GitHub</span>
+        </div>
+        <!-- HABILIDAD JAVASCRIPT -->
+        <div class="col-6 col-md-1 d-flex flex-row gap-2">
+          <img
+            class="container-box-softskills__image"
+            src="https://devicon-website.vercel.app/api/javascript/plain.svg"
+          /><span class="container-box-softskills__text">JavaScripts</span>
+        </div>
+        <!-- HABILIDAD VUE -->
+        <div class="col-6 col-md-1 d-flex flex-row gap-2">
+          <img
+            class="container-box-softskills__image"
+            src="https://devicon-website.vercel.app/api/vuejs/original.svg"
+          /><span class="container-box-softskills__text">Vue</span>
+        </div>
+      </div>
+    </section>
+    <h2 id="seccion3" class="text-secondary text-center my-5">Mis Proyectos</h2>
+    <!-- IMAGENES DE MIS PROYECTOS -->
+    <section id class="container-box-proyect">
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <img
+            class="container-box-proyect__images"
+            src="./assets/img/meetcoffee.png"
+            alt=""
+          />
+          <span class="container-box-proyect__text fw-bold fs-6"
+            >Meet&Coffe</span
+          >
+        </div>
+
+        <div class="col-12 col-md-3">
+          <img
+            class="container-box-proyect__images"
+            src="./assets/img/meetcoffee.png"
+            alt=""
+          />
+          <span class="container-box-proyect__text fw-bold fs-6"
+            >Meet&Coffe</span
+          >
+        </div>
+
+        <div class="col-12 col-md-3">
+          <img
+            class="container-box-proyect__images"
+            src="./assets/img/meetcoffee.png"
+            alt=""
+          /><span class="container-box-proyect__text fw-bold fs-6"
+            >Meet&Coffe</span
+          >
+        </div>
+
+        <div class="col-12 col-md-3">
+          <img
+            class="container-box-proyect__images"
+            src="./assets/img/meetcoffee.png"
+            alt=""
+          /><span class="container-box-proyect__text fw-bold fs-6"
+            >Meet&Coffe</span
+          >
+        </div>
+      </div>
+    </section>
+    <h2 id="seccion4" class="text-secondary text-center my-5">Contactarme</h2>
+    <section class="container-box-contact">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <!-- FORMULARIO -->
+          <form>
+            <div class="col-12 d-flex flex-row mb-4 gap-1">
+              <input
+                type="text"
+                id="disabledTextInput"
+                class="form-control"
+                placeholder="Nombre"
+              />
+              <input
+                type="text"
+                id="disabledTextInput"
+                class="form-control"
+                placeholder="Apellido"
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                type="text"
+                id="disabledTextInput"
+                class="form-control"
+                placeholder="Tu Email"
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                type="text"
+                id="disabledTextInput"
+                class="form-control py-5"
+                placeholder="Escribe un mensaje"
+              />
+            </div>
+            <div class="col-12 col-md-4 mb-5">
+              <button type="submit" class="btn btn-secondary">Enviar</button>
+            </div>
+          </form>
+        </div>
+        <!-- DATOS DE CONTACTO -->
+        <div class="col-12 col-md-6">
+          <div class="mb-2">
+            <i class="fa-solid fa-phone text-secondary"></i
+            ><span class="mx-3 fs-5 text-secondary">+56999887766 </span>
+          </div>
+          <div class="mb-2">
+            <i class="fa-solid fa-envelope text-secondary"></i
+            ><span class="mx-3 fs-5 text-secondary">tuemail@gmail.com</span>
+          </div>
+          <div class="mb-2">
+            <i class="fa-brands fa-linkedin text-secondary"></i
+            ><span class="mx-3 fs-5 text-secondary">tulinkedin</span>
+          </div>
+          <div class="mb-2">
+            <i class="fa-brands fa-github text-secondary"></i
+            ><span class="mx-3 fs-5 text-secondary">tu Github</span>
+          </div>
+          <div class="mb-2">
+            <i class="fa-brands fa-instagram text-secondary"></i
+            ><span class="mx-3 fs-5 text-secondary">Tu Instragram</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
