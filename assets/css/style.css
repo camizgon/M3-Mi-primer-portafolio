@@ -11879,6 +11879,10 @@ body {
   margin-top: 11px;
 }
 
+.button:hover {
+  color: #7AB2B2;
+}
+
 .navbar {
   position: fixed;
   top: 0;
