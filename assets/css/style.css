@@ -4,6 +4,7 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11843,6 +11844,70 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+/* MODELO MANIFIESTO main.scss*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-box__images {
+  position: relative;
+  left: 15%;
+}
+
+.container-box-softskills__image {
+  width: 28%;
+}
+
+.container-box-proyect__images {
+  display: flex;
+  justify-content: space-around;
+  width: 65%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container-box__title {
+  margin-top: 50px;
+}
+
+.container-box-softskills__text {
+  margin-top: 11px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-color: transparent;
+  width: 100%;
+}
+
+.container-box {
+  margin-top: 5%;
+}
+
+.container-box-softskills {
+  position: relative;
+  left: 13%;
+}
+
+.container-box-proyect {
+  position: relative;
+  left: 13%;
+  width: 75%;
+}
+
+.container-box-contact {
+  position: relative;
+  left: 13%;
+  width: 75%;
 }
 
 /*# sourceMappingURL=style.css.map */
